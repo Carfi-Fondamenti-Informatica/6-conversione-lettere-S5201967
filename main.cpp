@@ -4,9 +4,9 @@ using namespace std;
 int main() {
    char a;
    cin>>a;
-   int risultato=verifica(a);
-   if(risultato){
-       cout<<convert(a)<<endl;
+   int ris=verifica(a);
+   if(ris){
+       cout<< convert(a) <<endl;
    }else{
        cout<<"errore";
    }
